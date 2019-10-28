@@ -20,7 +20,7 @@ const Engagement = (props) => {
  let engage = (
   <div className="engage container p-3">
    <span className="comment">
-    <i className="fa fa-comment" aria-hidden="true"></i>
+    <i className="fa fa-comment" aria-hidden="true" onClick={props.showTextarea}></i>
    </span>
    <span className="like">
     <i className= {classNameLike} onClick={props.liked} aria-hidden="true"></i>
