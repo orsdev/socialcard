@@ -7,7 +7,7 @@ const Info = (props) => {
     <div className="header__title">
      <h5>The Practical Dev</h5>
      <p> Learning React? Start Small</p>
-     <span className="small"> author: <code className="text-primary">@dceddia</code></span>
+     <span className="small"> author: <code className="text-primary">John Doe</code></span>
     </div>
   </div>
  );

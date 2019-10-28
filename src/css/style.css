@@ -7,7 +7,7 @@
 .social__card {
   position: absolute;
   width: 648px;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
