@@ -24,11 +24,11 @@ const Engagement = (props) => {
    </span>
    <span className="like">
     <i className= {classNameLike} onClick={props.liked} aria-hidden="true"></i>
-    <small class="count">{props.likeCount}</small>
+    <small className="count">{props.likeCount}</small>
    </span>
    <span className="retweet">
     <i className={classNameRetweet} onClick={props.retweeted} aria-hidden="true"></i>
-    <small class="count">{props.retweetCount}</small>
+    <small className="count">{props.retweetCount}</small>
    </span>
   </div>
  );
