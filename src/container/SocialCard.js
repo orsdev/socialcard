@@ -11,18 +11,20 @@ class SocialCard extends Component {
   toggleLike: false,
   toggleRetweet: false,
   toggleCommentBox: false,
-  comments: null
+  comments: null,
+  commentCount: null
  };
 
  /*
-  call immediately after render function
+  call once immediately after render function
   is called, assign new value from
-  local storage to comments state
+  local storage to states
   */
  componentDidMount() {
-   //re-assign new value to comments state
+   
    this.setState({
-    comments: this.getFromStorage()
+    comments: this.getFromStorage(),
+    commentCount: this.getFromStorage().length
    })
 
  }
@@ -94,6 +96,7 @@ class SocialCard extends Component {
   //assign comment state an update localstorage data
   this.setState({
    comments: this.getFromStorage(),
+   commentCount: this.getFromStorage().length,
    toggleCommentBox: toggle
   });
   }
@@ -124,6 +127,7 @@ if(this.state.toggleRetweet){
       like={this.state.toggleLike}
       likeCount= {like_count}
       retweetCount= {retweet_count}
+      commentCount= {this.state.commentCount}
       retweet={this.state.toggleRetweet}
       liked={this.likeToggle}
       retweeted={this.retweetToggle} 

@@ -21,6 +21,7 @@ const Engagement = (props) => {
   <div className="engage container p-3">
    <span className="comment">
     <i className="fa fa-comment" aria-hidden="true" onClick={props.showTextarea}></i>
+    <small className="count">{props.commentCount}</small>
    </span>
    <span className="like">
     <i className= {classNameLike} onClick={props.liked} aria-hidden="true"></i>
