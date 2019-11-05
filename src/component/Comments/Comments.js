@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import CommentBox from '../CommentBox/CommentBox';
 import ShowComments from '../ShowComments/ShowComments';
 

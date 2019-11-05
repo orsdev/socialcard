@@ -11,8 +11,7 @@ class SocialCard extends Component {
   toggleLike: false,
   toggleRetweet: false,
   toggleCommentBox: false,
-  comments: null,
-  count: 0
+  comments: null
  };
 
  /*
@@ -21,25 +20,13 @@ class SocialCard extends Component {
   local storage to comments state
   */
  componentDidMount() {
-  if(this.state.count == 0){
-
-   //call function
-   this.initialCount();
-
    //re-assign new value to comments state
    this.setState({
     comments: this.getFromStorage()
    })
 
-  }
  }
 
- //function increment count state
- initialCount = () => {
-  this.setState(prevState => {
-   return { count: prevState.count + 1};
-  });
- }
 
  likeToggle = () => {
   let toggle = !this.state.toggleLike;
