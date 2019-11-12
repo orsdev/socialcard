@@ -12,9 +12,9 @@
   margin: 20px auto;
 }
 
-.comment_section{
+.comment_section{ 
  padding: 5px 0;
-  width: 648px;
+ width: 648px;
 }
 
 .info__container {
@@ -130,8 +130,31 @@
  display: flex;
 }
 
-.comment , .like , .retweet {
+.modify{
+ position: absolute;
+ bottom: 0;
+ margin: 3px auto;
+width: 100%;
+ display: flex;
+ justify-content: center;
+ padding: 6px 0;
+}
+
+.comment , 
+.like , 
+.retweet{
  flex-basis: 50px;
+}
+
+.fa-trash-o , 
+.fa-pencil{
+ flex-basis: 30px;
+ margin-right: 10px;
+}
+
+.fa-trash-o:hover,
+.fa-pencil:hover{
+ opacity: .8;
 }
 
 .count {
@@ -150,6 +173,8 @@
 }
 
 .commentText {
+ position: relative;
  box-shadow: 0 2px 2px 2px gainsboro;
  padding: 20px 0;
+ margin-bottom: 10px;
 }

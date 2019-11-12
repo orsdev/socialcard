@@ -8,11 +8,21 @@ const CommentBox = (props) => {
     id="commentbox"
     className="w-100 commentbox"
     rows="5"></textarea>
+   {
+   props.update 
+   ?
    <button
+   className="btn btn-success d-block mx-auto mt-3"
+   onClick={props.updateComment}>
+   Update
+   </button>
+    :
+    <button
     className="btn btn-danger d-block mx-auto mt-3"
     onClick={props.saveComment}>
     Comment
     </button>
+}
   </div>
  );
 };

@@ -8,14 +8,18 @@ const storeComment = (props) => {
 //show commentbox if true
  if (props.toggleCommentBox) {
   commentbox = <CommentBox
-   saveComment={props.saveComment} />
+   saveComment={props.saveComment}
+   update={props.update}
+   updateComment={props.updateComment} />
  }
 
  return (
   <Fragment>
    {commentbox}
    <ShowComments
-    comments={props.comments} />
+   edit={props.edit}
+   delete={props.delete}
+   comments={props.comments} />
   </Fragment>
  )
 };
