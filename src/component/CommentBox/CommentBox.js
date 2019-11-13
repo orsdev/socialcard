@@ -6,7 +6,7 @@ const CommentBox = (props) => {
    <textarea
     name="commentbox"
     id="commentbox"
-    className="w-100 commentbox"
+    className="commentbox"
     rows="5"></textarea>
    {
    props.update 
