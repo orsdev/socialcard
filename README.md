@@ -19,4 +19,4 @@ I actually built this web app to deepen my knowledge of components and props.
 
 ## Preview Link
 
-	https://orsdev.github.io/socialcard/
+https://orsdev.github.io/socialcard/
