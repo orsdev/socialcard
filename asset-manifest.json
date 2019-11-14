@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/socialcard/static/css/main.dd32c054.chunk.css",
+    "main.js": "/socialcard/static/js/main.47fdff58.chunk.js",
+    "main.js.map": "/socialcard/static/js/main.47fdff58.chunk.js.map",
+    "runtime-main.js": "/socialcard/static/js/runtime-main.4d392897.js",
+    "runtime-main.js.map": "/socialcard/static/js/runtime-main.4d392897.js.map",
+    "static/js/2.f74707df.chunk.js": "/socialcard/static/js/2.f74707df.chunk.js",
+    "static/js/2.f74707df.chunk.js.map": "/socialcard/static/js/2.f74707df.chunk.js.map",
+    "index.html": "/socialcard/index.html",
+    "precache-manifest.23c0b944a96f4bef5e8215d57ab07776.js": "/socialcard/precache-manifest.23c0b944a96f4bef5e8215d57ab07776.js",
+    "service-worker.js": "/socialcard/service-worker.js",
+    "static/css/main.dd32c054.chunk.css.map": "/socialcard/static/css/main.dd32c054.chunk.css.map",
+    "static/media/ogundare.jpg": "/socialcard/static/media/ogundare.55eef52f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d392897.js",
+    "static/js/2.f74707df.chunk.js",
+    "static/css/main.dd32c054.chunk.css",
+    "static/js/main.47fdff58.chunk.js"
+  ]
+}
