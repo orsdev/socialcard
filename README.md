@@ -6,7 +6,7 @@ SOCIAL CARD
 
 ## About
 
-I actually built this web app to deepen my knowledge of components and props.
+I actually built this web app to deepen my knowledge of components and props in React.
 
 ## Built With
 
